@@ -34,3 +34,11 @@ programa {
     escreva("A soma de ", N1, "+", N2, "=", Soma)
   }
 }
+
+### O que aprendi
+
+- cadeia guarda texto, inteiro guarda número sem vírgula
+- leia() pega o que o usuário digita e guarda na variável
+- variáveis declaradas fora da função funcionam dentro dela
+- vírgula dentro do escreva() mistura texto com número sem erro
+- Soma recebe o resultado de N1 + N2 igual na matemática
