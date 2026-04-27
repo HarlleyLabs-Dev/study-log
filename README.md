@@ -42,3 +42,28 @@ programa {
 - variáveis declaradas fora da função funcionam dentro dela
 - vírgula dentro do escreva() mistura texto com número sem erro
 - Soma recebe o resultado de N1 + N2 igual na matemática
+
+
+
+## 2026-04-27
+
+### O que aprendi
+- Operadores relacionais: comparam dois valores e retornam verdadeiro ou falso
+- Operadores lógicos: E (os dois precisam ser verdadeiros), OU (basta um), NÃO (inverte)
+- Diferença entre = e ==: = guarda valor na variável, == compara dois valores
+
+### Hoje eu consegui
+- Entender que (A==B) ou (C>A) dá verdadeiro porque C>A é verdadeiro
+- Descobrir que faltava == no lugar de = para comparar valores
+
+### Código do dia
+```portugol
+programa {
+  inteiro A, B, C
+  funcao inicio() {
+    A <- 2
+    B <- 3
+    C <- 5
+    escreva((A==B) ou (C>A))
+  }
+}
